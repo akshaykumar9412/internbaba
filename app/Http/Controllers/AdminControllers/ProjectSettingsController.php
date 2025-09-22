@@ -10,6 +10,7 @@ class ProjectSettingsController extends Controller
 {
     public function index()
     {
+        //hello
         $settings = ProjectSetting::first();
         return view('admin.projectSetting', compact('settings'));
     }
